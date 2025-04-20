@@ -81,14 +81,16 @@ numberValue(65, 90)
 
 // Number 7:
 function checkEmailPhone (checkEmail, checkPhoneNumber) {
-if(checkEmail = true || checkphoneNumber = true) {
-    console.log("User's details found")
-} else {console.log("User's details not found"}
+    if(checkEmail == true || checkPhoneNumber == true) {
+        console.log("User's details found")
+    } else {
+        console.log("User's details not found")
+    }
 };
-checkEmailPhone(true, true);
-checkEmailPhone(true, false);
-checkEmailPhone(false, true);
-checkEmailPhone(false, false);
+    checkEmailPhone(true, true);
+    checkEmailPhone(true, false);
+    checkEmailPhone(false, true);
+    checkEmailPhone(false, false);
 
 
 // Number 8:
